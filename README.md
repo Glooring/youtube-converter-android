@@ -10,7 +10,7 @@ The **YouTube Converter** is a powerful and easy-to-use Android application desi
 
 Here’s a quick demonstration of **YouTube Converter** in use:
 
-<img src="media/demo.gif" width="220">
+<img src="media/demo.gif" width="230">
 
 This demonstration showcases the main functionality of the app, including video and playlist downloads, as well as MP3 conversions.
 
