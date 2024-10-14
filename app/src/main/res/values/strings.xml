@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YouTube Converter</string>
+    <string name="channel_name">Conversion Notifications</string>
+    <string name="channel_description">Notifications for conversion progress and completion</string>
+</resources>
