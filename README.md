@@ -2,7 +2,7 @@
 
 ## **Description**
 
-The **YouTube Converter** is a powerful and easy-to-use Android application designed to help users download videos, audio, and entire playlists from YouTube. With its intuitive interface, users can quickly convert YouTube content into various formats, including MP3 for audio and MP4 for video, without requiring any technical expertise. Whether you're downloading a single video or an entire playlist, the YouTube Converter handles everything seamlessly in the background, allowing users to choose the highest video resolution for MP4 downloads or extract audio in MP3 format.
+The **YouTube Converter** is a powerful and easy-to-use Android application designed to help users download videos, audio, and entire playlists from YouTube. With its intuitive interface, users can effortlessly convert YouTube content into various formats, including MP3 for audio and MP4 for video, without needing any technical expertise. Whether you're downloading a single video or an entire playlist, the YouTube Converter works seamlessly in the background, allowing users to choose the highest available video resolution for MP4 downloads or extract audio in MP3 format.
 
 ---
 
