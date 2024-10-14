@@ -25,7 +25,7 @@ This demonstration showcases the main functionality of the app, including video 
 ## **Installation and Setup**
 
 ### **For All Users**:
-1. Download the APK from the [release](https://github.com/Glooring/youtube-converter-android/releases) folder or directly using [this link](https://github.com/Glooring/keycrypt-android/raw/refs/heads/main/release/youtube-converter-v1.0.apk).
+1. Download the APK from the [release](https://github.com/Glooring/youtube-converter-android/releases) page or directly using [this link](https://github.com/Glooring/youtube-converter-android/releases/latest/download/youtube-converter-v1.0.apk).
 2. Install the APK on your Android device.
 3. Grant the necessary permissions (Internet, Storage, Foreground Service).
 
@@ -132,8 +132,6 @@ YouTube Converter/
 │   │   │   │   └── values/              # Theme colors and styles
 ├── gradle/                              # Gradle wrapper files
 ├── media/                               # Contains media assets such as GIFs or images (e.g., demonstration GIF) 
-├── release/                             # APK and other release artifacts
-│   └── youtube-converter-v1.0.apk    	 # Compiled APK file
 ├── LICENSE                   			 # License information for the project
 ├── README.md                            # Project documentation
 ├── build.gradle.kts                     # Kotlin-based Gradle build file
