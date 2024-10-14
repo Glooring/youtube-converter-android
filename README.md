@@ -135,6 +135,7 @@ YouTube Converter/
 ├── media/                               # Contains media assets such as GIFs or images (e.g., demonstration GIF) 
 ├── release/                             # APK and other release artifacts
 │   └── youtube-converter-v1.0.apk    	 # Compiled APK file
+├── LICENSE                   			 # License information for the project
 ├── README.md                            # Project documentation
 ├── build.gradle.kts                     # Kotlin-based Gradle build file
 ├── gradle.properties                    # Gradle configuration properties
