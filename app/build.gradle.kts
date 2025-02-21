@@ -21,8 +21,8 @@ android {
             useSupportLibrary = true
         }
         ndk {
-            abiFilters += listOf("arm64-v8a", "x86_64", "x86")
-            //abiFilters.add("arm64-v8a")
+            //abiFilters += listOf("arm64-v8a", "x86_64", "x86")
+            abiFilters.add("arm64-v8a")
             //abiFilters.add("x86_64")
         }
     }
@@ -60,25 +60,26 @@ android {
 }
 
 chaquopy {
-    productFlavors {
-        //getByName("py310") { version = "3.10" }
-        //getByName("py311") { version = "3.11" }
-    }
+    /*productFlavors {
+        getByName("py312") {
+            version = "3.12"
+        }
+    }*/
     defaultConfig {
+        // Point to your Python 3.8 interpreter
         buildPython("C:/Users/dan_a/AppData/Local/Programs/Python/Python312/python.exe")
         pip {
-            // A requirement specifier, with or without a version number:
+            // Install the pytubefix package
             install("pytubefix")
         }
     }
-    productFlavors { }
     sourceSets {
         getByName("main") {
             srcDir("src/main/python")
         }
     }
-
 }
+
 
 
 dependencies {
@@ -90,7 +91,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.mobile.ffmpeg.audio)
+    implementation(files("libs/mobile-ffmpeg-full-4.4.LTS.aar"))
     implementation(libs.kotlinx.coroutines.android) // Add this line
     implementation(libs.androidx.navigation.compose) // Use the latest version
     implementation(libs.accompanist.insets)

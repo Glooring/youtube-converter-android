@@ -3,7 +3,7 @@ accompanistInsets = "0.31.5-beta"
 accompanistNavigationAnimation = "2.7.0-alpha01+"
 accompanistNavigationAnimationVersion = "2.7.0-alpha01"
 accompanistSystemuicontroller = "<version>"
-agp = "8.3.1"
+agp = "8.5.1"
 appcompat = "1.6.1"
 kotlin = "1.9.0"
 coreKtx = "1.10.1"
@@ -14,7 +14,7 @@ lifecycleLivedataKtx = "2.7.0"
 lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.7.0"
 composeBom = "2023.08.00"
-ffmpeg-audio = "4.4.LTS"  # Use the correct version for the audio variant
+#ffmpeg-audio = "4.4.LTS"  # Use the correct version for the audio variant
 coroutines = "1.3.9"  # Add this line for coroutines
 materialIconsCore = "1.6.3"
 #materialIconsExtended = "1.6.3"
@@ -54,7 +54,7 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
-mobile-ffmpeg-audio = { module = "com.arthenica:mobile-ffmpeg-audio", version.ref = "ffmpeg-audio" }
+# mobile-ffmpeg-audio = { module = "com.arthenica:mobile-ffmpeg-audio", version.ref = "ffmpeg-audio" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 androidx-documentfile = { group = "androidx.documentfile", name = "documentfile", version.ref = "documentfile" }  # Add this line for coroutines
 
